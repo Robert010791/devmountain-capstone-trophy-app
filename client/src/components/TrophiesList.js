@@ -8,7 +8,7 @@ function TrophiesList({
   isUserLoggedIn,
 }) {
   return (
-    <div>
+    <div className="trophy-container">
       {trophies.map((item, index) => {
         return (
           <Trophies
